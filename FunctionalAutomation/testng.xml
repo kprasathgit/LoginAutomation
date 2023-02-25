@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="DriverKey" value="webdriver.chrome.driver"></parameter>
+<parameter name="DriverLocation" value="D:\\SOFTWARES\\SOFTWARE TESTING\\3.chromedriver_win32\\chromedriver.exe"></parameter>
+<parameter name="SiteUrl" value="https://rahulshettyacademy.com/seleniumPractise/#/"></parameter>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="ECommerce.AddCart_PlaceOrder.E_Kart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
